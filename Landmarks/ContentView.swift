@@ -17,10 +17,6 @@ struct ContentView: View {
                 .offset(y: -130)
                 .padding(.bottom, -130)
             VStack (alignment: .leading) {
-
-                
-                
-                
                 Text("Trutle Rock")
                     .font(.title)
                     .foregroundColor(.green)
@@ -33,6 +29,10 @@ struct ContentView: View {
                         .font(.subheadline)
                         .foregroundColor(.red)
                 }
+                Divider()
+                Text("About Trutle Rock")
+                    .font(.title2)
+                Text("Description Tect goes here.")
             }
             .padding()
             Spacer()
